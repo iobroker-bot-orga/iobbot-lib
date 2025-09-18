@@ -7,6 +7,10 @@ Library supporting access to ioBroker data
     Placeholder for the next version (at the beginning of the line):
     ### **WORK IN PROGRESS**
 -->
+### **WORK IN PROGRESS**
+- (mcm1957) migrate to node:fetch
+- migrate to eslint-config
+
 ### 1.1.0 (2024-06-08)
 - (mcm1957) add getLatest/StableAdapters
 
