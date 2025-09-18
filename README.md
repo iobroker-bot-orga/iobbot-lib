@@ -25,7 +25,7 @@ Library supporting access to ioBroker data
 
 MIT License
 
-Copyright (c) 2024 mcm1957 <iobroker-bot@gmx.at>
+Copyright (c) 2024 - 2025 mcm1957 <iobroker-bot@gmx.at>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
