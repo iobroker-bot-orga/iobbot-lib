@@ -4,7 +4,7 @@
 'use strict';
 
 /**
- * @fileoverview ioBroker bot support library for ioBroker access
+ * @file ioBroker bot support library for ioBroker access
  * This module provides functions to retrieve and process ioBroker repository and adapter data.
  */
 

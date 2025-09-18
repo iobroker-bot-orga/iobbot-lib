@@ -15,18 +15,13 @@
   "engines": {
     "node": ">= 18"
   },
-  "dependencies": {
-  },
   "devDependencies": {
     "@alcalzone/release-script": "^3.8.0",
     "@alcalzone/release-script-plugin-license": "^3.7.0",
     "@alcalzone/release-script-plugin-manual-review": "^3.7.0",
+    "@iobroker/eslint-config": "^2.1.0",
     "@tsconfig/node18": "^18.0.0",
     "@types/node": "^24.5.2",
-    "eslint": "^8.57.0",
-    "eslint-config-prettier": "^9.1.0",
-    "eslint-plugin-prettier": "^5.5.4",
-    "prettier": "^3.6.2",
     "typescript": "~5.8.3"
   },
   "main": "index.js",
@@ -37,7 +32,7 @@
   ],
   "scripts": {
     "test:package": "node index.js",
-    "lint": "eslint .",
+    "lint": "eslint -c eslint.config.mjs .",
     "release": "release-script"
   },
   "bugs": {
