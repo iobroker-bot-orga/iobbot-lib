@@ -21,7 +21,7 @@
     "@alcalzone/release-script-plugin-manual-review": "^3.7.0",
     "@iobroker/eslint-config": "^2.2.0",
     "@tsconfig/node18": "^18.0.0",
-    "@types/node": "^24.6.1",
+    "@types/node": "^24.9.2",
     "typescript": "~5.9.3"
   },
   "main": "index.js",
