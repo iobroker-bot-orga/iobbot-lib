@@ -25,17 +25,17 @@ Always reference these instructions first and fallback to search or bash command
 
 ### Core Functions Available
 1. `extractAdapterName(url)` - Extracts adapter name from GitHub URL (offline function)
-2. `getLatestRepoLive()` - Fetches latest repository data from repo.iobroker.live (requires network)
-3. `getStableRepoLive()` - Fetches stable repository data from repo.iobroker.live (requires network)
+2. `getLatestRepoLive()` - Fetches latest repository data from download.iobroker.net (requires network)
+3. `getStableRepoLive()` - Fetches stable repository data from download.iobroker.net (requires network)
 4. `getLatestAdapters()` - Processes latest adapters with metadata (requires network)
 5. `getStableAdapters()` - Processes stable adapters with metadata (requires network)
 6. `getAdapterUrls(adapters)` - Extracts GitHub URLs from adapter objects
 
 ### Network Dependencies
-- Functions requiring network access will fail without internet connectivity to `repo.iobroker.live`
+- Functions requiring network access will fail without internet connectivity to `download.iobroker.net`
 - Network functions fetch JSON data from:
-  - Latest: `http://repo.iobroker.live/sources-dist-latest.json`
-  - Stable: `http://repo.iobroker.live/sources-dist.json`
+  - Latest: `https://download.iobroker.net/sources-dist-latest.json`
+  - Stable: `https://download.iobroker.net/sources-dist.json`
 - Results are cached in context objects to avoid repeated network calls
 
 ## Validation
@@ -50,11 +50,11 @@ Always reference these instructions first and fallback to search or bash command
 - Basic library loading: Run `node index.js` and verify "module has been loaded successfully"
 - Function export verification: Test `require('./index.js').extractAdapterName` exists
 - URL parsing: Test with format `https://github.com/user/ioBroker.adaptername`
-- Network functions: Test in environments with internet access to repo.iobroker.live
+- Network functions: Test in environments with internet access to download.iobroker.net
 
 ## Network Limitations
 - In sandboxed environments without internet access, only `extractAdapterName` can be fully tested
-- Network-dependent functions will throw "ENOTFOUND repo.iobroker.live" errors without connectivity
+- Network-dependent functions will throw "ENOTFOUND download.iobroker.net" errors without connectivity
 - For development, mock data or offline testing strategies may be needed
 
 ## Common Tasks
