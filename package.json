@@ -13,7 +13,7 @@
     "url": "https://github.com/iobroker-bot-orga/iobroker-lib.git"
   },
   "engines": {
-    "node": ">= 18"
+    "node": ">= 22"
   },
   "devDependencies": {
     "@alcalzone/release-script": "^5.0.0",
@@ -21,7 +21,7 @@
     "@alcalzone/release-script-plugin-manual-review": "^4.0.0",
     "@iobroker/eslint-config": "^2.2.0",
     "@tsconfig/node18": "^18.2.6",
-    "@types/node": "^24.10.1",
+    "@types/node": "^24.10.2",
     "typescript": "~5.9.3"
   },
   "main": "index.js",
