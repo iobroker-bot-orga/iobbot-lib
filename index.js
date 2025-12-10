@@ -13,10 +13,14 @@ const iobrokerRepositories = require('./lib/iobrokerRepositories.js');
 
 console.log('module has been loaded successfully');
 
+// Export constants
+exports.IOBROKER_SOURCES_LATEST = iobrokerRepositories.IOBROKER_SOURCES_LATEST;
+exports.IOBROKER_SOURCES_STABLE = iobrokerRepositories.IOBROKER_SOURCES_STABLE;
+
 // Export functions
 exports.extractAdapterName = iobrokerTools.extractAdapterName;
 exports.getAdapterUrls = iobrokerTools.getAdapterUrls;
 exports.getLatestAdapters = iobrokerTools.getLatestAdapters;
-exports.getLatestRepoLive = iobrokerRepositories.getLatestRepoLive;
+exports.getLatestRepo = iobrokerRepositories.getLatestRepo;
 exports.getStableAdapters = iobrokerTools.getStableAdapters;
-exports.getStableRepoLive = iobrokerRepositories.getStableRepoLive;
+exports.getStableRepo = iobrokerRepositories.getStableRepo;
