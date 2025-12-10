@@ -1,16 +1,16 @@
 {
-  "name": "@iobroker-bot-orga/iobroker-lib",
+  "name": "@iobroker-bot-orga/iobbot-lib",
   "version": "2.0.0-alpha.4",
   "description": "ioBroker bot support library for ioBroker access",
   "author": "mcm1957 <mcm57@gmx.at>",
   "contributors": [
     "mcm1957 <mcm57@gmx.at>"
   ],
-  "homepage": "https://github.com/github.com/iobroker-bot-orga/iobroker-lib#readme",
+  "homepage": "https://github.com/github.com/iobroker-bot-orga/iobbot-lib#readme",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/iobroker-bot-orga/iobroker-lib.git"
+    "url": "https://github.com/iobroker-bot-orga/iobbot-lib.git"
   },
   "engines": {
     "node": ">= 22"
@@ -36,7 +36,7 @@
     "release": "release-script"
   },
   "bugs": {
-    "url": "https://github.com/github.com/iobroker-bot-orga/watch-repositories/issues"
+    "url": "https://github.com/github.com/iobroker-bot-orga/iobbot-lib/issues"
   },
   "readmeFilename": "README.md"
 }
