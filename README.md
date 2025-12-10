@@ -7,7 +7,7 @@ Library supporting access to ioBroker data
     Placeholder for the next version (at the beginning of the line):
     ### **WORK IN PROGRESS**
 -->
-### 2.0.0-alpha.5 (2025-12-10)
+### **WORK IN PROGRESS**
 - (mcm1957) rename some methods, use new repo locations
 - (mcm1957) migrate to node:fetch
 - migrate to eslint-config
